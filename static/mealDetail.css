@@ -1,0 +1,39 @@
+body{
+    background-color: #f0e5cc;
+}
+.detail{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+}
+.title{
+    width: 30%;
+}
+.image
+{
+    width: 70%;
+}
+h1{
+    max-width: 100%;
+    font-family: Pacifico; 
+    font-size: 100px;
+    color: black;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+img{
+    border-radius: 5px;
+    margin-left: 20%;
+    width: 540px;
+    height: 360px;
+}
+.btn{
+    font-size: 20px;
+    margin: 25%;
+}
+.btn:focus{
+    border: 1px solid black;
+}
+.fa-star:focus{
+    color: rgb(238, 204, 53);
+}

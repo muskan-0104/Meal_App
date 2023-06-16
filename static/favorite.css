@@ -1,0 +1,36 @@
+body{
+    background-color: #f0e5cc;
+}
+h1{
+    font-size: 80px;
+    font-family: Pacifico; 
+    text-align: center;
+    margin: 5%;
+}
+.favorite{
+    display: flex;
+    flex-direction: row;
+}
+.detail{
+    display: flex;
+    flex-direction: column;
+    margin: 5% 2%;
+    align-items: center;
+}
+h2{
+    max-width: 100%;
+    font-family: Pacifico; 
+    color: black;
+}
+img{
+    border-radius: 5px;
+    width: 270px;
+    height: 180px;
+}
+#favorite0{
+    display: none;
+}
+.btn{
+    background-color: rgb(173, 32, 32);
+    color: white;
+}
